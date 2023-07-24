@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FanNet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--Title-->
+    <h1>FanNet</h1>
+    <!--Login button-->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    <h2>To Living Multiple Lives and More to Come</h2>
+    <br>
+   <!--Navigation-->
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Reconmmendations</a><br>
+        <a href="./index.html">Browse</a><br>
+        <a href="./index.html">Chat</a><br>
+        <a href="./index.html">Settings</a><br>
+    </nav>
+    <!--Daily updates on reconmmended Fanfiction-->
+        <h2>Fanfiction of the Day!</h2>
+        <img src="TOT.png" alt="The Order of Things">
+        <h3>The Order of Things</h3>
+        <h3>Tails42</h3>
+        <p>You don't usually know what your purpose in life is. 
+            Sometimes you spend your whole life with no clear destination. 
+            That is not the case for Holly. After going through a grisly death, Holly is reincarnated. 
+            But instead of enjoying a second life, she decided that she was put into this world to save Fred Weasley.
+            <br><br>
+            Source: Fanfiction.net <br>
+            Fanfiction: Harry Potter <br>
+            Genre: Romance, Adventure, Humor, Anxiety, AU <br>
+            Chapters : 138 <br>
+            Status : Ongoing <br>
+            Comment: Definitely one of my absolute favorite. I adore Holly and the fun 'little'
+            impacts she brings. Definitely AU but not completely off the rails. The inneractions and 
+            relationships is very much amusing and much adored. Be warned though, there are pretty strong 
+            emotions involved. 
+
+        </p>
+
+</body>
+
+</html>
